@@ -12,11 +12,11 @@ categories = ["cryptography", "no-std"]
 [dependencies]
 block-cipher-trait = { git = "https://github.com/RustCrypto/traits", rev = "block-cipher-trait-v0.6.0" }
 
-[target.'cfg(not(all(target_feature="aes", target_feature = "sse2", any(target_arch = "x86_64", target_arch = "x86"))))'.dependencies]
-aes-soft = "0.3"
+# [target.'cfg(not(all(target_feature="aes", target_feature = "sse2", any(target_arch = "x86_64", target_arch = "x86"))))'.dependencies]
+# aes-soft = "0.3"
 
-[target.'cfg(all(target_feature="aes", target_feature = "sse2", any(target_arch = "x86_64", target_arch = "x86")))'.dependencies]
-aesni = { version = "0.6", default-features = false }
+# [target.'cfg(all(target_feature="aes", target_feature = "sse2", any(target_arch = "x86_64", target_arch = "x86")))'.dependencies]
+# aesni = { version = "0.6", default-features = false }
 
 [dev-dependencies]
 # block-cipher-trait = { version = "0.6", features = ["dev"] }
