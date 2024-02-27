@@ -10,7 +10,7 @@ keywords = ["crypto", "block-cipher", "ciphers"]
 
 [dependencies]
 block-padding = "0.1"
-block-cipher-trait = "0.6"
+block-cipher-trait = { git = "https://github.com/RustCrypto/traits", rev = "block-cipher-trait-v0.6.0" }
 
 [dev-dependencies]
 aes-soft = "0.3"

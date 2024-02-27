@@ -10,9 +10,9 @@ keywords = ["crypto", "aes", "rijndael", "block-cipher"]
 categories = ["cryptography", "no-std"]
 
 [dependencies]
-block-cipher-trait = "0.6"
+block-cipher-trait = { git = "https://github.com/RustCrypto/traits", rev = "block-cipher-trait-v0.6.0" }
 opaque-debug = "0.2"
 byteorder = { version = "1", default-features = false }
 
 [dev-dependencies]
-block-cipher-trait = { version = "0.6", features = ["dev"] }
+# block-cipher-trait = { version = "0.6", features = ["dev"] }
