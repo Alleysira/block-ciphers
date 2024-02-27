@@ -5,7 +5,7 @@ authors = ["RustCrypto Developers"]
 license = "MIT OR Apache-2.0"
 description = "Facade for AES (Rijndael) block ciphers implementations"
 documentation = "https://docs.rs/aes"
-repository = "https://github.com/RustCrypto/block-ciphers"
+repository = "https://github.com/Alleysira/block-ciphers"
 keywords = ["crypto", "aes", "rijndael", "block-cipher"]
 categories = ["cryptography", "no-std"]
 
